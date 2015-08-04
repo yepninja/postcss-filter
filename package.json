@@ -1,22 +1,24 @@
 {
-  "name": "PLUGIN_NAME",
+  "name": "postcss-filter",
   "version": "0.0.0",
-  "description": "PostCSS plugin PLUGIN_DESC",
+  "description": "PostCSS plugin for filter shortcut",
   "keywords": [
     "postcss",
     "css",
-    "postcss-plugin"KEYWORDS
+    "postcss-plugin",
+    "shortcut",
+    "css3"
   ],
-  "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
+  "author": "alanev <e@alanev.ru>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GITHUB_NAME/PLUGIN_NAME.git"
+    "url": "https://github.com/alanev/postcss-filter.git"
   },
   "bugs": {
-    "url": "https://github.com/GITHUB_NAME/PLUGIN_NAME/issues"
+    "url": "https://github.com/alanev/postcss-filter/issues"
   },
-  "homepage": "https://github.com/GITHUB_NAME/PLUGIN_NAME",
+  "homepage": "https://github.com/alanev/postcss-filter",
   "dependencies": {
     "postcss": "^4.1.13"
   },

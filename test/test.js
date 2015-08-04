@@ -13,12 +13,16 @@ var test = function (input, output, opts, done) {
     });
 };
 
-describe('PLUGIN_NAME', function () {
+describe('postcss-filter', function () {
 
-    /* Write tests here
+    it('set white filter', function (done) {
+        test('a{ filter: white() }',
+            'a{ filter: brightness(0) invert(100%) }', {}, done);
+    });
 
-    it('does something', function (done) {
-        test('a{ }', 'a{ }', { }, done);
-    });*/
+    it('set black filter', function (done) {
+        test('a{ filter: black() }',
+            'a{ filter: brightness(0) }', {}, done);
+    });
 
 });
