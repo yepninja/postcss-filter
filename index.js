@@ -4,7 +4,7 @@ module.exports = postcss.plugin('postcss-filter', function (opts) {
     opts = opts || {};
 
     return function (css) {
-        css.eachDecl('filter', function (decl) {
+        css.walkDecls('filter', function (decl) {
             var value = decl.value;
 
             if (value) {

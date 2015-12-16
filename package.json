@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/alanev/postcss-filter",
   "dependencies": {
-    "postcss": "^4.1.13"
+    "postcss": "^5.0.12"
   },
   "devDependencies": {
     "chai": "^3.0.0",
